@@ -1,3 +1,4 @@
+/* First */
 #slider {
     width: 720px;
     height: 400px;
@@ -29,15 +30,10 @@
 
 /* SLIDER */
 
-.container {
-	width: 720px;
-	margin: 0 auto;
-	margin-top: 50px;
-	margin-bottom: 50px;
-}
 
-.container img {
-	max-width: 720px;
+.container {
+    width: 1000px;
+    margin: 0 auto;
 }
 
 #slider {
@@ -62,9 +58,69 @@
     height: 400px;
 }
 
+
+
+
+
+
+
+
+
+
+/* Second */
+
+#slider2 {
+    width: 720px;
+    height: 400px;
+    overflow: hidden;
+}
+
+#slider2 .slides2 {
+    display: block;
+    width: 6000px;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+}
+
+#slider2 .slide2 {
+    float: left;
+    list-style-type: none;
+    width: 720px;
+    height: 400px;
+}
+
 /* helper css, since we don't have images */
 .slide1 {background: red;}
 .slide2 {background: blue;}
 .slide3 {background: green;}
 .slide4 {background: purple;}
 .slide5 {background: pink;}
+
+
+/* SLIDER */
+
+
+#slider2 {
+    width: 720px;
+    height: 400px;
+    overflow: hidden;
+    border: 1px solid #272727;
+}
+
+#slider2 .slides2 {
+    display: block;
+    width: 6000px;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+}
+
+#slider2 .slide2 {
+    float: left;
+    list-style-type: none;
+    width: 720px;
+    height: 400px;
+}
+
+
